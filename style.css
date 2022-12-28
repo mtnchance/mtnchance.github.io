@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fabf01;
+}
+.popup{
+    background-color: #ffffff;
+    width: 750px;
+    padding: 60px 80px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 30px auto;
+    background-color: transparent;
+    font-size: 50px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup h1{
+    font-size: 40px;
+}
+
+.popup p{
+    font-size: 28px;
+    text-align:justify-all;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 180px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
